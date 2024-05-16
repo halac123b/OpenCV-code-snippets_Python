@@ -5,4 +5,5 @@
   <li>Basic syntax</li>
   <li>Ways to show an image</li>
   <li>Image filters</li>
+  <li>Change face skin color</li>
 </ol>

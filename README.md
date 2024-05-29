@@ -8,4 +8,5 @@
   <li>Change face skin color</li>
   <li>Seamless cloning Photo collage</li>
   <li>Draw on image</li>
+  <li>Convert images between different Numpy array types</li>
 </ol>

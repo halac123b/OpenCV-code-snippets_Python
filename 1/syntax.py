@@ -30,3 +30,6 @@ new_img = cv2.add(img, avg_color)
 # Merge 3 single-channel images thành 1 3-channel image
 ## Mục đích: dùng để tương tác với các ảnh 3-channel khác (các hàm thường yêu cầu input cùng số channel)
 new_img = cv2.merge([grayscale_img, grayscale_img, grayscale_img])
+
+# Normalize range value của image về 1 range mới (0-255), dựa trên gt min|max của array
+img_normalized = cv2.normalize(new_img, None, 0, 255, cv2.NORM_MINMAX)
